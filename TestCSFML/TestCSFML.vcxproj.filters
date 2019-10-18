@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils">
+      <UniqueIdentifier>{c72a2292-80f4-480e-a3c2-3072fcfc064a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils\Image">
+      <UniqueIdentifier>{b0667c1d-e17d-4bb2-9724-294984200ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils\Vecteur">
+      <UniqueIdentifier>{30c79649-7c62-4e5c-8f46-0aa03a1109f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils\Text">
+      <UniqueIdentifier>{b93e643d-8f40-4189-8121-c6a201354526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils\Shape">
+      <UniqueIdentifier>{30456aca-d7ee-437a-bf70-0dcf1ea6f13d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Utilities">
+      <UniqueIdentifier>{599bdb8f-540c-4b3a-a6cd-1dcbcbeaff0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Outils\View">
+      <UniqueIdentifier>{4579d124-510a-4bac-be37-65fe6ccdb26f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Image\Image.h">
+      <Filter>Fichiers sources\Outils\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Shapes.h">
+      <Filter>Fichiers sources\Outils\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Texte\Texte.h">
+      <Filter>Fichiers sources\Outils\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Vecteur\Vecteur.h">
+      <Filter>Fichiers sources\Outils\Vecteur</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Utilities.h">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Outils\OutilsIn.h">
+      <Filter>Fichiers sources\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Outils\OutilsOut.h">
+      <Filter>Fichiers sources\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="View\View.h">
+      <Filter>Fichiers sources\Outils\View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Image\Image.c">
+      <Filter>Fichiers sources\Outils\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\Shapes.c">
+      <Filter>Fichiers sources\Outils\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Texte\Texte.c">
+      <Filter>Fichiers sources\Outils\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Vecteur\Vecteur.c">
+      <Filter>Fichiers sources\Outils\Vecteur</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Utilities.c">
+      <Filter>Fichiers sources\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="View\View.c">
+      <Filter>Fichiers sources\Outils\View</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
